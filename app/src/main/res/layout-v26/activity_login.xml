@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_arka_plan"
+    tools:context="com.example.mustafa.restorantsiparisv2.Login">
+
+    <EditText
+        android:id="@+id/editText2_email"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="14dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:background="@drawable/login_edittext_arka_plan"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:text="admin@admin.com"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        app:layout_constraintBottom_toTopOf="@+id/editText_sifre"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editText_sifre"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="32dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:background="@drawable/login_edittext_arka_plan"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:text="admin123"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        app:layout_constraintBottom_toTopOf="@+id/button2_login"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_alignBottom="@+id/editText_sifre"
+        android:layout_marginStart="20dp"
+        android:layout_toLeftOf="@+id/editText_sifre"
+        android:layout_toStartOf="@+id/editText_sifre"
+        app:layout_constraintStart_toStartOf="@+id/editText2_email"
+        app:layout_constraintTop_toTopOf="@+id/editText2_email"
+        app:srcCompat="@drawable/mail"
+        tools:ignore="ContentDescription,MissingConstraints,RtlCompat" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:adjustViewBounds="false"
+        android:cropToPadding="false"
+        android:hapticFeedbackEnabled="false"
+        android:isScrollContainer="false"
+        android:visibility="visible"
+        android:orientation="horizontal"
+
+        app:layout_constraintStart_toStartOf="@+id/editText_sifre"
+        app:layout_constraintTop_toTopOf="@+id/editText_sifre"
+        app:srcCompat="@drawable/sifre"
+        tools:ignore="ContentDescription,MissingConstraints,RtlCompat" />
+
+    <Button
+        android:id="@+id/button2_login"
+        android:layout_width="0dp"
+        android:layout_height="63dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:background="@drawable/login_giris_buton"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+</android.support.constraint.ConstraintLayout>

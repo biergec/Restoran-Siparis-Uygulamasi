@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#009688</color>
+    <color name="colorPrimaryDark">#090909</color>
+    <color name="colorAccent">#ffffff</color>
+    <color name="colorGriMy">#323542</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="Buton_renk">#0bd38a</color>
+</resources>

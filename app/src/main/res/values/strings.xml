@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Restorant Siparis</string>
+    <string name="title_activity_login">Giris Yap</string>
+    <string name="siparis_bilgilendirme">Hoşgeldiniz</string>
+    <string name="masa_no">Masa Numarası</string>
+
+    <string name="title_activity_yemek_siparis_v2">Yemek Siparis</string>
+    <string name="tab_text_1">Yemekler</string>
+    <string name="tab_text_2">İçecekler</string>
+    <string name="tab_text_3">Tatlılar</string>
+</resources>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "649054927067",
+    "firebase_url": "https://restoransiparis-de07b.firebaseio.com",
+    "project_id": "restoransiparis-de07b",
+    "storage_bucket": "restoransiparis-de07b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:649054927067:android:0da41a4e84267044",
+        "android_client_info": {
+          "package_name": "com.example.mustafa.restorantsiparisv2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "649054927067-agjtarp99g72ucfjs82dv7k4ad8u2fh7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mustafa.restorantsiparisv2",
+            "certificate_hash": "a69ffa5ff3969c09ed4210250bb9ca8952044bc5"
+          }
+        },
+        {
+          "client_id": "649054927067-rtjqqupi50bob968q13j0mtqhbn2g1mb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCf4cSE7eULiikCwGhIsumSEZHb2yvDtY8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "649054927067-rtjqqupi50bob968q13j0mtqhbn2g1mb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
